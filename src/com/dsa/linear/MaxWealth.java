@@ -2,6 +2,7 @@ package com.dsa.linear;
 
 public class MaxWealth {
     public static void main(String[] args) {
+        //Treat each sub array as a individual account and if we add all the elements then it is a total wealth of that account
         int[][] accounts = {
                 {2,4,6},
                 {4,5,6},
